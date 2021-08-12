@@ -130,12 +130,70 @@ go run lesson01.go
 ![](https://i.imgur.com/OXzLhsn.png)
 
 
-但是不是稍微有一些麻煩呢？沒錯，因此，下一堂課會教大家更快執行庫洛牌的方法！
+但是要編輯 Golang 牌似乎是麻煩了一點，有沒有其他比較簡單就能使用 Golang 牌方法呢？
 
+其實是有的，我們通常稱這種軟體叫 IDE (Integrated Development Environment, 整合開發環境)
 
 > **進階操作小補充**
 > 
 > 除了用 `go run` 直接執行，也可以使用 `go build` 將 `.go` 編譯成 `.exe`
+> 
+## 第 1.5 課 ── 使用 IDE / Editor！
+
+### 選擇一 使用 Atom
+
+1. 下載並安裝 Atom 
+2. 打開 Atom
+3. 點選 File (檔案)
+4. 點選 Settings (設定)
+5. 接著點選 Install (安裝)，來安裝插件
+6. 安裝 `exec-in-cmd` 
+
+![](https://i.imgur.com/z7VoQUf.png)
+
+
+![](https://i.imgur.com/TPUTZff.png)
+↑ 因為我已經安裝過所以沒有藍色的 install 鈕，初次使用的人應該都會有
+
+安裝完後，重新啟動 Atom 
+
+在練習成為Golang魔法使時，建議大家把搜集到的 Golang 牌(~~好啦自己寫的，不要一直帶劇情~~)都放在同一個資料夾中，然後匯入資料夾
+
+![](https://i.imgur.com/F2pfFJM.png)
+
+
+可能大家新裝的 Atom 都長的不太理想，可以在 Setting 頁面中，選 Theme(主題) 去調整自己要的主題，另外，也可以安裝一些外掛讓 Atom 變的更好用
+
+![](https://i.imgur.com/7pSO8MP.png)
+
+接著我們按 `F12` 馬上跳出一個命令提示字元視窗，稍待片刻，就會出現我們要的結果
+
+![](https://i.imgur.com/BBxPHKy.png)
+
+
+另外，提供一下我有額外安裝的插件
+
+>
+> + activate-power-mode 打字會噴火花，帥
+> + atom-clock 視窗下方可以顯示時間
+> + file-icons 左側檔案窗格的檔案會按照不同副檔名，出現不同花樣
+> + minimap 右側的卷軸會變成程式碼地圖，方便大行程式尋找
+> + minimap-bookmarks 可以配合bookmarks使用，方便大行程式編輯
+> + title-bar-replacer 可以去除程式預設的窗格(限windows)
+> 
+
+### 選擇二 使用 visual studio code (vscode)
+[Visual Studio Code Golang 設定](https://medium.com/@dboyliao/visual-studio-code-golang-%E8%A8%AD%E5%AE%9A-5463da40b34a)
+
+網路上有很多教學文大家翻一下就有了
+
+![](https://i.imgur.com/MXh6tEP.png)
+
+### 選擇三 使用 GoLand
+
+如果你是凱子，或學生，可以用 GoLand，這是由 jetBrains 所開發的非自由軟體，廣告打很兇
+
+![](https://i.imgur.com/GFy4EK1.png)
 
 ---
 
